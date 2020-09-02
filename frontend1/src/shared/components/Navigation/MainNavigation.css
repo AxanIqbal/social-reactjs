@@ -1,0 +1,62 @@
+/*.main-navigation__menu-btn {*/
+/*    !*width: 3rem;*!*/
+/*    !*height: 3rem;*!*/
+/*    !*background: transparent;*!*/
+/*    !*border: none;*!*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: column;*!*/
+/*    !*justify-content: space-around;*!*/
+/*    !*margin-right: 2rem;*!*/
+/*    !*cursor: pointer;*!*/
+/*}*/
+
+/*.main-navigation__menu-btn span {*/
+/*    display: block;*/
+/*    width: 3rem;*/
+/*    height: 2.5px;*/
+/*    background: white;*/
+/*}*/
+
+#main-navigation__appBar {
+    background: linear-gradient(45deg, #ffa36c 30%, #d54062 90%);
+}
+
+.main-navigation__title {
+    color: white;
+    font-family: 'Lobster', cursive, Roboto !important;
+}
+
+.main-navigation__title a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-navigation__header-nav {
+    display: none;
+}
+
+.main-navigation__drawer-nav {
+    height: 100%;
+    background: linear-gradient(45deg, #ffa36c 30%, #d54062 90%);
+    /*background-image: linear-gradient(-135deg, rgba(255, 0, 85, 1), rgba(255, 0, 85,0.5));*/
+    /*background-color: rgba(255,255,0,0);*/
+}
+
+@media (min-width: 768px) {
+    #main-navigation__menu-btn {
+        display: none;
+    }
+
+    .main-navigation__header-nav {
+        display: block;
+    }
+}
+
+.MuiPaper-root {
+    width: 70%;
+}
+
+.main-navigation__divider {
+    flex: 1;
+    background-color: rgba(0,0,0,0) !important;
+}
